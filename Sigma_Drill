@@ -1,0 +1,22 @@
+type: genericCrafter
+craftTime: 8
+name: Sigma Copper Machine
+description: Given power input, produces 1 copper.
+
+health: 125
+size: 1
+hasPower: true
+consumes: {
+  power: 1
+}
+requirements: [
+  copper/100
+]
+category: crafting
+outputItem: copper/1
+research: {
+  parent: item-replicator-hack-circuit
+  requirements: [
+    copper/1
+  ]
+}
