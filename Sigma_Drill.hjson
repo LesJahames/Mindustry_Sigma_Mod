@@ -1,0 +1,21 @@
+type: Drill
+name: Sigma Drill
+description: High yield drill
+
+health: 300
+size: 2
+
+tier: 10
+drillTime: 175
+rotateSpeed: 3.6
+itemCapacity: 100
+requirements: [
+  copper/10
+]
+category: production
+research: {
+  parent: mechanical-drill
+  requirements: [
+    copper/100
+  ]
+}
